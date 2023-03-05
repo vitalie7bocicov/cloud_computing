@@ -1,0 +1,20 @@
+CREATE TABLE `car-dealerships`.`car_dealerships` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `city` VARCHAR(45) NULL,
+  `street` VARCHAR(45) NULL,
+  `isOpen` TINYINT NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `car-dealerships`.`cars` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `brand` VARCHAR(45) NOT NULL,
+  `model` VARCHAR(45) NOT NULL,
+  `year` INT NULL,
+  `dealershipId` INT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `dealership`
+    FOREIGN KEY (`dealershipId`)
+    REFERENCES `car-dealerships`.`car_dealerships` (`id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE);
