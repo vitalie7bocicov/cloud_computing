@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "e54dba0f-5451-4260-87f9-77b14cd207db",
+		"name": "car_dealerships api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21105154"
+	},
+	"item": [
+		{
+			"name": "car_dealerships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:5000/car_dealerships"
+			},
+			"response": []
+		},
+		{
+			"name": "cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:5000/cars"
+			},
+			"response": []
+		},
+		{
+			"name": "cars/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:5000/cars/1"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealerships/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:5000/car_dealerships/id"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealerships/id/cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:5000/car_dealerships/1/cars"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealership",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Auto Audi",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Bacau",
+							"type": "text"
+						},
+						{
+							"key": "street",
+							"value": "Stefan cel Mare 10",
+							"type": "text"
+						},
+						{
+							"key": "isOpen",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/car_dealerships"
+			},
+			"response": []
+		},
+		{
+			"name": "cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "brand",
+							"value": "BMW",
+							"type": "text"
+						},
+						{
+							"key": "model",
+							"value": "X5",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "2020",
+							"type": "text"
+						},
+						{
+							"key": "dealershipId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/cars"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealerships/id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Auto Audi dealership",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Iasi",
+							"type": "text"
+						},
+						{
+							"key": "street",
+							"value": "Stefan cel Mare 11",
+							"type": "text"
+						},
+						{
+							"key": "isOpen",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/car_dealerships/1"
+			},
+			"response": []
+		},
+		{
+			"name": "cars/id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "brand",
+							"value": "Audi",
+							"type": "text"
+						},
+						{
+							"key": "model",
+							"value": "Q7",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "2022",
+							"type": "text"
+						},
+						{
+							"key": "dealershipId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/cars/1"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealerships/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:5000/car_dealerships/4"
+			},
+			"response": []
+		},
+		{
+			"name": "cars/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:5000/cars/4"
+			},
+			"response": []
+		},
+		{
+			"name": "car_dealerships",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "isOpen",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/car_dealerships/1"
+			},
+			"response": []
+		},
+		{
+			"name": "cars",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "dealershipId",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:5000/cars/1"
+			},
+			"response": []
+		}
+	]
+}
