@@ -1,0 +1,3 @@
+[submodule "hw2/frontend/Car-Dealerships-React"]
+	path = hw2/frontend/Car-Dealerships-React
+	url = https://github.com/vitalie7bocicov/Car-Dealerships-React.git
