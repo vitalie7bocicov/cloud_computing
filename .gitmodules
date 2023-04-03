@@ -1,3 +1,9 @@
 [submodule "hw2/frontend/Car-Dealerships-React"]
 	path = hw2/frontend/Car-Dealerships-React
 	url = https://github.com/vitalie7bocicov/Car-Dealerships-React.git
+[submodule "hw3/backend"]
+	path = hw3/backend
+	url = https://github.com/vitalie7bocicov/Image-to-language.git
+[submodule "hw3/frontend"]
+	path = hw3/frontend
+	url = https://github.com/vitalie7bocicov/frontend-image-to-language.git
