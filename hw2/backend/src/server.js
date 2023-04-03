@@ -1,8 +1,6 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
-const getRandomPrices = require("./utils/getRandomPrices");
-const getPexelsPhoto = require("./utils/getPexelsPhoto");
 const addDataFromApis = require("./utils/addDataFromApis");
 require('dotenv').config()
 const app = express();
