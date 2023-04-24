@@ -24,7 +24,7 @@ Users can also listen to the recognized words in the selected language through t
 <p>The backend of the application is deployed as a Docker image to Google Container Registry and Cloud Run, while
 the frontend client is deployed with App Engine.</p>
 <h2>Demo</h2>
-<p>You can access a working demo of the application <a href="https://cloud-project-382306.lm.r.appspot.com/" target="_new">here</a>.</p>
+<p>You can access a working demo of the application <a href="https://edik-317621.uc.r.appspot.com/" target="_new">here</a>.</p>
 
 <h2>Getting Started</h2>
 <p>To run the application locally, you will need to have the following software installed:</p>
