@@ -7,3 +7,9 @@
 [submodule "hw3/frontend"]
 	path = hw3/frontend
 	url = https://github.com/vitalie7bocicov/frontend-image-to-language.git
+[submodule "hw4/frontend-image-to-language"]
+	path = hw4/frontend-image-to-language
+	url = https://github.com/vitalie7bocicov/frontend-image-to-language.git
+[submodule "hw4/photospeak-backend-azure"]
+	path = hw4/photospeak-backend-azure
+	url = https://github.com/vitalie7bocicov/photospeak-backend-azure.git
