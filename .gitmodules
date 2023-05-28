@@ -16,3 +16,6 @@
 [submodule "final_project/frontend-image-to-language"]
 	path = final_project/frontend-image-to-language
 	url = https://github.com/vitalie7bocicov/frontend-image-to-language.git
+[submodule "final_project/BE-photospeak"]
+	path = final_project/BE-photospeak
+	url = https://github.com/vitalie7bocicov/BE-photospeak.git
