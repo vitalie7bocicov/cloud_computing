@@ -19,3 +19,9 @@
 [submodule "final_project/BE-photospeak"]
 	path = final_project/BE-photospeak
 	url = https://github.com/vitalie7bocicov/BE-photospeak.git
+[submodule "final_project/InsertCloudFunction"]
+	path = final_project/InsertCloudFunction
+	url = git@github.com:eduardsoltan/InsertCloudFunction.git
+[submodule "final_project/GetPhotosCloudFunction"]
+	path = final_project/GetPhotosCloudFunction
+	url = https://github.com/eduardsoltan/GetPhotosCloudFunction
